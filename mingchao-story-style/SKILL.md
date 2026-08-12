@@ -1,13 +1,13 @@
 ---
 name: mingchao-story-style
-description: Write, rewrite, explain, or review Chinese content with a distilled plainspoken, fact-first, story-driven, lightly humorous narrative method. Use when the user asks for 明朝那些事儿式文风, 明朝故事化文风, 讲人话的故事化表达, readable Chinese explanations,人物小传, event retrospectives, or rewriting AI, product, business, process, and technical material for general readers. Apply transferable structure and pacing without impersonating a living author or copying protected text.
+description: Write, rewrite, explain, or review Chinese content using transferable writing mechanisms distilled through full-text extraction and slicing of 《明朝那些事儿》. Use when the user asks for 明朝那些事儿式文风, 明朝故事化文风, 讲人话的故事化表达, readable Chinese explanations, 人物小传, event retrospectives, or rewriting AI, product, business, process, and technical material for general readers. Apply distilled structure, pacing, plain-language explanation, and story progression without impersonating the author or copying protected text.
 ---
 
-# 明朝故事化文风
+# 《明朝那些事儿》文风切片蒸馏
 
-把复杂事实写成普通人愿意读、读得懂、读完知道重点的故事化中文。
+本 Skill 的文风来源是《明朝那些事儿》。它把从全书提取、切片和蒸馏出的可迁移写作机制，用于把复杂事实写成普通人愿意读、读得懂、读完知道重点的故事化中文。
 
-本 Skill 不是作者角色模仿或一段系统提示词。它是对完整长篇文本进行连续切片、功能统计、规律筛选和跨主题测试后得到的方法蒸馏。执行时使用结构、节奏、解释机制和质量闸门，不检索或重建原书。
+本 Skill 不是作者角色模仿或一段系统提示词。它是对《明朝那些事儿》完整长篇文本进行连续切片、功能统计、规律筛选和跨主题测试后得到的方法蒸馏。执行时使用结构、节奏、解释机制和质量闸门，不检索或重建原书。
 
 ## 读取参考
 
