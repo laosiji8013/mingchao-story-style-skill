@@ -1,0 +1,18 @@
+name: Validate Skill
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 scripts/validate_public_skill.py
+      - run: python3 scripts/install_skill.py --target /tmp/test-skills
+      - run: test -f /tmp/test-skills/mingchao-story-style/SKILL.md
+      - run: test -f /tmp/test-skills/mingchao-story-style/agents/openai.yaml
