@@ -1,4 +1,4 @@
 interface:
-  display_name: "《明朝那些事儿》文风蒸馏"
-  short_description: "从《明朝那些事儿》全书切片蒸馏出的可迁移中文写作方法"
-  default_prompt: "使用 $mingchao-story-style，把给定事实材料改写成清楚、有故事推进感、事实优先的中文内容。"
+  display_name: "明朝故事化文风"
+  short_description: "明朝故事化文风，适合把复杂材料写成讲人话的中文内容。"
+  default_prompt: "使用这个 Skill，把给定事实材料改写成讲人话、有故事推进感、事实优先的中文内容。"
