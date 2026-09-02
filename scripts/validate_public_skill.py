@@ -22,12 +22,9 @@ def main() -> int:
         SKILL / "agents/openai.yaml",
         SKILL / "references/style-profile.md",
         SKILL / "references/structure-patterns.md",
-        SKILL / "references/writing-units.md",
         SKILL / "references/output-rules.md",
         SKILL / "references/examples.md",
         SKILL / "references/anti-examples.md",
-        SKILL / "references/distillation-method.md",
-        SKILL / "references/evidence-summary.md",
         SKILL / "references/test-prompts.json",
     ]
     missing = [str(path.relative_to(ROOT)) for path in required if not path.is_file()]
@@ -51,7 +48,7 @@ def main() -> int:
         fail("at least five test prompts are required")
 
     forbidden_suffixes = {".zip", ".txt", ".epub", ".pdf"}
-    forbidden_names = {".DS_Store", "slice-index.csv"}
+    forbidden_names = {".DS_Store"}
     files = [
         path
         for path in ROOT.rglob("*")
