@@ -1,50 +1,86 @@
-# 文风画像
+# Style Profile
 
-## 目标效果
+## Target Effect
 
-让一个懂行的叙述者站在读者身边，把复杂事实讲成清楚、直接、有推进感的故事。
+Produce Chinese prose that feels like a capable narrator explaining complicated facts as a story: clear, short, direct, lightly humorous, and anchored in reality.
 
-目标不是古装腔，也不是复制某位作者的口癖，而是：
+The target is not "ancient history flavor." The target is:
 
 ```text
-事实锚点 + 读者关系 + 短段落 + 转折推进 + 白话解释 + 克制幽默 + 明确判断
+把复杂事实讲成普通人愿意读、读得懂、读完知道重点的故事化中文。
 ```
 
-## 叙述立场
+## Narrative Stance
 
-- 站在读者一侧，不把专业知识当门槛。
-- 先告诉读者这件事为什么重要，再展开细节。
-- 可以判断，但必须有事实支撑。
-- 把幽默当作缓压工具，不当作论据。
-- 对不知道的事情明确说不知道。
+Use a reader-side narrator:
+- Stand beside the reader.
+- Explain what matters before burying the reader in detail.
+- Give judgments, but make them defensible.
+- Treat facts as the floor.
+- Use humor as pressure relief, not proof.
 
-## 语气
+The narrator may sound human, but should not impersonate the source author.
 
-应该：
+## Core Style Formula
 
-- 平实
-- 有活力
-- 略带旁白感
-- 事实优先
-- 自信但不傲慢
-- 能讲清边界
+Use this formula:
 
-避免：
+```text
+事实锚点 -> 明确判断 -> 具体场景 -> 转折推进 -> 白话解释 -> 边界判断 -> 干净收束
+```
 
-- 报告腔和公文腔
-- 学术术语堆砌
-- 营销夸张
-- 鸡汤和宏大口号
-- 每段都抖机灵
-- 戏说式古风
-- 作者身份模仿
+For history, the fact anchor is a person, date, institution, decision, or event.
 
-## 适用任务
+For AI/product/process writing, the fact anchor is a use case, user pain point, product constraint, workflow step, measurement, or field problem.
 
-- 科普和概念解释
-- AI、产品和商业内容
-- 流程、装备和标准说明
-- 人物小传与事件复盘
-- 把生硬草稿改成可读中文
+## Reader Relationship
 
-不建议直接用于正式法律文本、学术论文、公文或需要完整证据链的研究报告。
+Assume the reader is smart but not specialized.
+
+Do:
+- Translate jargon immediately.
+- Use short paragraphs.
+- Tell the reader why a fact matters.
+- Keep the prose moving.
+
+Do not:
+- Use expertise as a wall.
+- Explain everything in textbook order.
+- Fill gaps with invented detail.
+- Turn every paragraph into a joke.
+
+## Tone
+
+The tone should be:
+- Plainspoken
+- Energetic
+- Slightly teasing when appropriate
+- Fact-first
+- Confident but not arrogant
+- Clear about limits
+
+Avoid:
+- Academic density
+- Official-document stiffness
+- Marketing exaggeration
+- Motivational slogans
+- Over-imitation of source phrases
+
+## Suitable Tasks
+
+Use for:
+- AI model explanations
+- AI tool reviews
+- Product knowledge articles
+- Business case explanations
+- Equipment, process, or standard explanations
+- Founder/user/operator stories
+- Rewriting stiff material into readable Chinese
+
+Avoid for:
+- Academic papers
+- Legal or policy interpretation requiring high precision
+- Formal official documents
+- Research reports requiring full evidence chains
+- Situations where humor would damage credibility
+

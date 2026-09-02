@@ -1,49 +1,105 @@
-# 输出规则
+# Output Rules
 
-## 内部输入框架
+## Standard Input Frame
+
+Use this frame internally:
 
 ```text
-主题：{topic}
-读者：{reader}
-事实：{facts}
-用途：{use_case}
-禁区：{forbidden_zone}
-长度：{length}
+Topic: {topic}
+Reader: {reader}
+Facts: {facts}
+Use case: {use_case}
+Forbidden zone: {forbidden_zone}
+Length: {length}
 ```
 
-## 执行规则
+## Standard Output Shape
 
-1. 从事实出发，不从情绪出发。
-2. 尽早给出有用判断。
-3. 在分析前翻译术语。
-4. 默认使用短段落。
-5. 用时间、压力、选择或对比形成推进。
-6. 事实清楚后再解释和评价。
-7. 幽默少量使用。
-8. 每个小节有局部结论。
-9. 资料缺失时明确说明。
-10. 不引用或重建书籍原文。
+For normal writing tasks:
 
-## 终检
+```text
+标题
 
-出现以下问题时必须修订：
+正文
+```
 
-- 报告腔太重
-- 营销腔太重
-- 鸡汤感太重
-- 术语密度太高
-- 事实被删减或改写
-- 段落长期没有推进
-- 为了幽默牺牲严肃性
-- 依赖固定口癖
-- 过度接近作者身份或原作品表达
+For validation tasks, add:
 
-最后逐项检查：
+```text
+终检说明：事实边界、术语翻译、文风控制。
+```
 
-- 核心事实是否保留？
-- 判断是否有证据？
-- 读者能否看懂术语？
-- 场景是否真实而非虚构？
-- 转折是否来自事实？
-- 边界是否明确？
-- 结尾是否回答“所以呢”？
+## Execution Rules
+
+1. Start from facts, not mood.
+2. Give a useful judgment early.
+3. Translate jargon before analysis.
+4. Use short paragraphs as the default.
+5. Create movement with chronology, pressure, or contrast.
+6. Add interpretation only after the fact is clear.
+7. Use light humor sparingly.
+8. End each section with a local conclusion.
+9. Say "unknown" or "not provided" when facts are missing.
+10. Do not quote or reconstruct source-book passages.
+
+## Quality Gate
+
+Revise if the draft is:
+- Too report-like
+- Too promotional
+- Too motivational
+- Too jargon-heavy
+- Too loose with facts
+- Too long-blocked
+- Too dependent on catchphrases
+- Too close to the source author's identity
+
+## Business Adaptation: 荟沣
+
+For AI and product writing, explain:
+- What it is
+- What problem it solves
+- Who will use it
+- What changes in actual work
+- What the limitation is
+- Whether it is worth attention
+
+Use this movement:
+
+```text
+概念很硬 -> 场景很普通 -> 痛点出现 -> 工具介入 -> 边界落下
+```
+
+Do not overstate model or product capability.
+
+## Business Adaptation: 云航
+
+For equipment, material, standard, or process writing, explain:
+- Where it is used
+- What field problem it solves
+- Why standardization matters
+- Who is responsible for each step
+- What action follows
+
+Use this movement:
+
+```text
+现场问题 -> 流程/物资介入 -> 责任变清楚 -> 风险降低 -> 行动落地
+```
+
+Keep the tone steady. Avoid sensitive operational details unless the user provides clear authorization and the request is appropriate.
+
+## Forbidden Tendencies
+
+Avoid these unless backed by concrete facts:
+- 众所周知
+- 赋能千行百业
+- 颠覆式创新
+- 极致体验
+- 全面提升
+- 深度融合
+- 革命性突破
+- 遥遥领先
+- 史诗级
+- 封神
+

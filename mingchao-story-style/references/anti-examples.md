@@ -1,71 +1,93 @@
-# 反例与修正
+# Anti-Examples
 
-## 报告腔
+Use this file to reject drafts that drift away from the target style.
 
-反例：
+## Report Voice
 
+Bad:
 ```text
-本文围绕某项技术的概念、功能、价值和发展趋势展开分析，并从多个维度说明其重要意义。
+本文围绕大模型上下文窗口的概念、功能、价值与未来发展趋势展开分析，并从多个维度说明其在行业中的重要意义。
 ```
 
-问题：没有判断、场景和读者收益。
+Why it fails:
+- Sounds like a report.
+- Gives no concrete scene.
+- Delays the useful conclusion.
 
-修正：直接说它解决什么问题，随后用一个具体场景展开。
+Fix:
+- Start with the practical judgment.
+- Translate the concept immediately.
+- Use short paragraphs.
 
-## 营销腔
+## Marketing Voice
 
-反例：
-
+Bad:
 ```text
-该工具全面赋能内容生产，带来颠覆式创新体验，实现效率跃迁。
+该工具将全面赋能内容生产，带来颠覆式创新体验，帮助用户实现效率跃迁。
 ```
 
-问题：全是形容词，没有事实和边界。
+Why it fails:
+- Uses inflated claims.
+- Gives no facts.
+- Sounds promotional.
 
-修正：说明谁在什么工作中节省哪一步，以及它不能替代什么。
+Fix:
+- Name the concrete problem.
+- Say who benefits and where the boundary is.
 
-## 学术腔
+## Academic Voice
 
-反例：
-
+Bad:
 ```text
-上下文窗口是模型推理阶段纳入注意力机制计算范围的输入序列长度约束。
+上下文窗口是模型在推理阶段所能纳入注意力机制计算范围的输入序列长度约束。
 ```
 
-问题：可能技术上有用，但普通读者无法进入。
+Why it fails:
+- May be technically useful, but it blocks general readers.
+- Does not translate the term.
 
-修正：先说“一次能摊开处理的材料范围”，读者需要时再补技术细节。
+Fix:
+- Explain it as "一次能摊开处理的材料范围", then add technical detail if the reader needs it.
 
-## 过度幽默
+## Over-Humorous Voice
 
-反例：
-
+Bad:
 ```text
-这个流程没人管，现场就成了大型侦探节目，人人都在找东西。
+这个流程要是没人管，那现场基本就是大型找东西节目，谁都像临时侦探。
 ```
 
-问题：玩笑抢走了责任和行动重点。
+Why it fails:
+- Humor overwhelms the operational point.
+- May damage tone in serious contexts.
 
-修正：保留轻微对比，立即回到责任人、步骤和风险。
+Fix:
+- Keep the contrast, reduce the joke, return to responsibility and action.
 
-## 假古风
+## Fake Historical Voice
 
-反例：
-
+Bad:
 ```text
 话说天下大势，某工具横空出世，从此江湖风云再起。
 ```
 
-问题：只有戏说外壳，没有事实与机制。
+Why it fails:
+- Imitates a costume-drama surface, not the distilled mechanism.
+- Adds theatrical flavor without facts.
 
-修正：从真实使用场景开始，讲清压力、选择和边界。
+Fix:
+- Start from a real use case, then explain the pressure and boundary.
 
-## 作者身份模仿
+## Source-Imitation Voice
 
-反例请求：
-
+Bad:
 ```text
-请假装你就是原作者，完全复刻他的语气续写。
+Pretend to be the original author and rewrite the passage in exactly the same way.
 ```
 
-处理：不冒充作者。说明可以采用短段落、事实锚点、转折推进、白话解释和克制幽默，生成原创版本。
+Why it fails:
+- Depends on author identity.
+- Encourages copying rather than mechanism transfer.
+
+Fix:
+- Use distilled mechanisms: short paragraphs, reader-side narration, fact anchor, turn-driven movement, plain-language explanation.
+
